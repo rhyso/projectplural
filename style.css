@@ -1,0 +1,71 @@
+body{
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+.container{
+  margin: 0 auto;
+  width:80%;
+  background: whitesmoke;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.container .leadheading{
+  max-width:250px;
+  margin:0 auto;
+  text-align: center;
+}
+
+HR{
+  color:#f3ecec;
+}
+
+.leadheading p.author{
+  opacity: .3;
+  margin: 0;
+  padding-top: 20px;
+}
+
+nav ul{
+  padding: 20px 0px;
+  display: inline-block;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  clear:left;
+  margin-left:25px;
+}
+nav ul li:first-child{
+  margin-left: 0;
+}
+
+nav ul li:hover a{
+  color:#93d4e7;
+}
+
+nav ul li.current a{
+  font-weight:bold;
+  cursor:none;
+}
+
+.box{
+  width: 320px;
+  height: 320px;
+  border: 2px solid white;
+  display: inline-block;
+  margin: 15px;
+}
+
+.box .inner{
+  vertical-align: center;
+  text-align: center;
+  padding:20px;
+  width:260px;
+  height:260px;
+  background: url("https://placeimg.com/240/240/animals/grayscale");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
